@@ -1,0 +1,72 @@
+/* SEARCH BOX */
+.search-for-contacts {
+  height: 80px;
+  /* padding: 10px; */
+  border-bottom: 2px;
+  margin-bottom: 10px;
+}
+.search-logo {
+  padding: 13px 10px 10px 20px;
+  color: #AAAAAA;
+}
+.search-box {
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid gray;
+  font-size: 20px;
+  padding: 10px 5px 10px 10px;
+}
+.search-box:focus {
+  outline: none;
+}
+
+/* SELECT MENU */
+.select-menu {
+  padding: 10px 0px 10px 0px;
+  width: 75%;
+  margin-left: 12.5%;
+  font-size: 20px;
+  background: #FAFAFA;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 2px;
+  text-align-last: center;
+  margin-bottom: 5%;
+  border: none;
+}
+
+/* ALL CONTACT STUFF */
+.contact-card {
+  height: 80px;
+}
+.contact-card:hover {
+  cursor: pointer;
+}
+.contact-card:active {
+  background: #DADADA;
+}
+.contact-photo {
+  width: 55px;
+  height: auto;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 7px;
+  -moz-transition: 0.3s border ease;
+  -o-transition: 0.3s border ease;
+  -webkit-transition: 0.3s border ease;
+  transition: 0.3s border ease;
+}
+.contact-name {
+  font-size: 18px;
+  font-family: "Robotto";
+  margin-left: 15px;
+  cursor: pointer;
+}
+.contact-preview {
+  margin-top: 2px;
+  opacity: 0.5;
+  cursor: pointer;
+  /* Prevents overflow and allows for single line of text */
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 15px;
+}

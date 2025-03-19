@@ -1,0 +1,28 @@
+.conj_photo {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+}
+.title1 {
+  font-family: "Lucida, sans-serif";
+  font-size: 5em;
+}
+.title2 {
+  font-family: "Lucida, sans-serif";
+  font-size: 4em;
+}
+.vertical {
+  -ms-transform: translateY(30%);
+  transform: translateY(30%);
+}
+.text {
+  font-family: "Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif";
+}
+p.text {
+  font-size: 18px;
+}
+.google_form {
+  width: 75%;
+  height: auto;
+  border: 1px solid black;
+}

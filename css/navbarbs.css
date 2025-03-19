@@ -1,0 +1,39 @@
+.jumbotron {
+    background-color: #B4DFE5;
+    color: black;
+}
+.logo-size {
+    width: 37;
+    height: 37;
+}
+@media all and (max-width: 992px) {
+    .nav-link-backgrounds {
+        background-image: linear-gradient(to right, #F4976C, #FBE8A6);
+        border-style: none;
+    }
+}
+@media all and (min-width: 992px) {
+    .nav-link-bullet-points-show {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+.breadcrumb {
+    background-color: transparent;
+    padding: 0px;
+}
+@media all and (min-width: 992px) {
+  .diagonalSplit {
+    background-color: #34ADFF;
+    background-image: -webkit-linear-gradient(150deg, #34ADFF 50%, #4CBFFF 50%);
+    min-height: 400px;
+  }
+}
+@media all and (max-width: 776px) {
+  .horizontalSplit {
+    background-color: black;
+    background-image: -webkit-linear-gradient(to right, black 50%, white 50%);
+    min-height: 400px;
+  }
+}
